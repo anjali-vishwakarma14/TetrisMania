@@ -1,0 +1,43 @@
+/* CSS for the Tetris Game */
+/* CSS for the Tetris Game */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #484849;  /* Dark background */
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    background-color: #000;  /* Black background for the canvas */
+    border: 2px solid #fff;  /* White border around the canvas */
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#container {
+    text-align: center;
+}
+
+#tetris {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Bright and vibrant colors for Tetris pieces */
+.tetris-piece-1 { background-color: #FF5733; }  /* Bright Red-Orange */
+.tetris-piece-2 { background-color: #FFBD33; }  /* Bright Yellow-Orange */
+.tetris-piece-3 { background-color: #75FF33; }  /* Bright Lime Green */
+.tetris-piece-4 { background-color: #33FF57; }  /* Bright Green */
+.tetris-piece-5 { background-color: #33FFBD; }  /* Bright Aquamarine */
+.tetris-piece-6 { background-color: #339FFF; }  /* Bright Sky Blue */
+.tetris-piece-7 { background-color: #9F33FF; }  /* Bright Purple */
